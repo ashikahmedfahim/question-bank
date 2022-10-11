@@ -1,0 +1,10 @@
+.quiz{
+    border: 2px solid rgb(64, 23, 64);
+    border-radius: 5px;
+    margin: 25px 0;
+    padding: 15px;
+    background-color: cornflowerblue;
+}
+.quiz img{
+    height: 200px;
+}

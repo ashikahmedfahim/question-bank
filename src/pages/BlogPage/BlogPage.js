@@ -1,10 +1,11 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 
 const BlogPage = () => {
     return (
-        <div>
+        <Container>
             Blog Page
-        </div>
+        </Container>
     );
 };
 

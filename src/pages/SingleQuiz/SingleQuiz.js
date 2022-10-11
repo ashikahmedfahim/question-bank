@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 
-const SingleBlog = () => {
+const SingleQuiz = () => {
     const data = useLoaderData();
     console.log(data);
     return (
@@ -11,4 +11,4 @@ const SingleBlog = () => {
     );
 };
 
-export default SingleBlog;
+export default SingleQuiz;
