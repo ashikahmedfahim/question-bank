@@ -5,7 +5,7 @@ import './HomePage.css';
 
 const Home = () => {
     const { data } = useLoaderData();
-    console.log(data);
+    
     return (
         <Container>
             {data.map((quiz) => (
@@ -18,7 +18,7 @@ const Home = () => {
                     <div>
                         <Link to={`blogs/${quiz.id}`} >
                             <Button>
-                                Go to quiz {quiz.id}
+                                Take Quiz
                             </Button>
                         </Link>
                     </div>

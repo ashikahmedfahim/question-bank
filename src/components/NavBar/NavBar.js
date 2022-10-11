@@ -13,6 +13,9 @@ function NavBar() {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto d-flex align-items-center">
                         <Nav className='px-3'>
+                            <Link to="/" className='link'>Topics</Link>
+                        </Nav>
+                        <Nav className='px-3'>
                             <Link to="/statistics" className='link'>Statistics</Link>
                         </Nav>
                         <Nav className='px-3'>
