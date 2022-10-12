@@ -9,6 +9,7 @@ import Home from './pages/HomePage/HomePage';
 import BlogPage from './pages/BlogPage/BlogPage';
 import SingleQuiz from './pages/SingleQuiz/SingleQuiz';
 import ErrorPage from './pages/ErrorPage/ErrorPage';
+import Statistics from './pages/Statistics/Statistics';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -30,6 +31,13 @@ const router = createBrowserRouter([
         element: <SingleQuiz />,
         loader: async ({ params }) => {
           return fetch(`https://openapi.programming-hero.com/api/quiz/${params.id}`);
+        },
+      },
+      {
+        path: "/statistics",
+        element: <Statistics />,
+        loader: async () => {
+          return fetch('https://openapi.programming-hero.com/api/quiz');
         },
       },
       {

@@ -35,7 +35,7 @@ const BlogPage = () => {
     return (
         <Container>
             <p className='display-4 py-5 text-center'>Read the latest blogs here...</p>
-            {blogs.map(blog => <SingleBlog blog={blog} />)}
+            {blogs.map((blog, _id) => <SingleBlog key={_id} blog={blog} />)}
         </Container>
     );
 };

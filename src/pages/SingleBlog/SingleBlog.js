@@ -7,8 +7,8 @@ const SingleBlog = ({ blog }) => {
         <Container className='blog'>
             <p className='blog-title'>{blog.title}</p>
             <ul className='points'>
-                {blog.points.map(point => (
-                    <li>{point}</li>
+                {blog.points.map((point, _id) => (
+                    <li key={_id}>{point}</li>
                 ))}
             </ul>
         </Container>
