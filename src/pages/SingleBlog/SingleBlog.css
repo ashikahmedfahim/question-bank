@@ -1,0 +1,15 @@
+.blog {
+    border: 2px solid rgb(64, 23, 64);
+    border-radius: 5px;
+    margin: 25px 0;
+    padding: 15px;
+    background-color: grey;
+}
+.blog-title{
+    font-size: 1.5rem;
+    color: white;
+}
+.points{
+    padding: 15px 25px;
+    color: black;
+}
