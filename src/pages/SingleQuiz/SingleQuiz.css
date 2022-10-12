@@ -21,6 +21,11 @@
     background-color: rgb(56, 0, 129);
     color: white;
 }
-p{
+
+p {
     margin-bottom: 0;
+}
+
+.show-ans:hover {
+    color: blue;
 }
